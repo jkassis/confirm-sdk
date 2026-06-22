@@ -1,0 +1,6 @@
+/target/
+Cargo.lock
+*.pem
+*.key
+.env
+.env.*
