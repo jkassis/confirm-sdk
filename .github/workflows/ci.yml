@@ -22,6 +22,6 @@ jobs:
       - name: Clippy
         run: cargo clippy --all-targets --all-features -- -D warnings
       - name: Test default features
-        run: cargo test
+        run: cargo test -p confirm-service-sdk
       - name: Test http feature
-        run: cargo test --features http
+        run: cargo test -p confirm-service-sdk --features http
