@@ -1,0 +1,22 @@
+{
+  "name": "@confirm/service-sdk",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for Confirm requester applications",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --test dist/test/*.test.js",
+    "pretest": "npm run build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.19.1",
+    "typescript": "^5.8.3"
+  }
+}

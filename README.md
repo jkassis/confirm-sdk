@@ -5,8 +5,8 @@ SDKs and integration helpers for requester applications that use Confirm.
 ## Packages
 
 - `rust/`: Rust server SDK for building signed confirmation requests, submitting requests, and verifying receipts.
-- `typescript/`: planned TypeScript/JavaScript package.
-- `go/`: planned Go package.
+- `typescript/`: TypeScript/JavaScript server SDK for building signed confirmation requests, submitting requests, and verifying receipts.
+- `go/`: Go server SDK for building signed confirmation requests, submitting requests, and verifying receipts.
 - `fixtures/`: planned shared conformance fixtures for canonical request bodies, signatures, response tokens, and receipts.
 
 ## Repository Layout
@@ -25,3 +25,22 @@ Requester private keys belong on requester application servers only. Browser hel
 ## Rust
 
 See [rust/README.md](rust/README.md).
+
+## TypeScript
+
+See [typescript/README.md](typescript/README.md).
+
+```bash
+cd typescript
+npm install
+npm test
+```
+
+## Go
+
+See [go/README.md](go/README.md).
+
+```bash
+cd go
+go test ./...
+```
